@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js&logoColor=white"/>
     <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-java-E34A86?style=flat-square&logo=java&logoColor=white"/>
+    <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white"/>
     <img src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white"/>
     <img src="https://img.shields.io/badge/yaml-%23ffffff.svg?style=flat-square&logo=yaml&logoColor=black"/>
     <img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black"/>
