@@ -1,26 +1,60 @@
-<!-- data_pipeline.svg -->
 <svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Data Input -->
-  <circle cx="50" cy="150" r="15" fill="#3498db">
-    <animate attributeName="cx" from="50" to="250" dur="2s" repeatCount="indefinite" />
-  </circle>
 
-  <!-- Data Processing Stage -->
-  <rect x="250" y="120" width="100" height="60" fill="#2ecc71" />
-  <text x="300" y="155" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Processing</text>
+  <!-- Step 1: 2x2 Grid Image -->
+  <rect x="20" y="20" width="50" height="50" fill="lightgray" stroke="black" stroke-width="2"/>
+  <rect x="20" y="20" width="25" height="25" fill="white" stroke="black"/>
+  <rect x="45" y="20" width="25" height="25" fill="white" stroke="black"/>
+  <rect x="20" y="45" width="25" height="25" fill="white" stroke="black"/>
+  <rect x="45" y="45" width="25" height="25" fill="white" stroke="black"/>
+  <text x="30" y="85" font-family="Arial" font-size="12">2x2 Grid Image</text>
+
+  <!-- Step 2: Flatten -->
+  <line x1="80" y1="45" x2="150" y2="45" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="90" y="35" font-family="Arial" font-size="12">Flatten</text>
+
+  <!-- Flattened Image -->
+  <rect x="150" y="35" width="10" height="10" fill="gray" />
+  <rect x="165" y="35" width="10" height="10" fill="gray" />
+  <rect x="150" y="50" width="10" height="10" fill="gray" />
+  <rect x="165" y="50" width="10" height="10" fill="gray" />
+  <text x="140" y="85" font-family="Arial" font-size="12">Flattened Image</text>
+
+  <!-- Step 3: Neural Network Layers -->
+  <line x1="180" y1="45" x2="250" y2="45" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="190" y="35" font-family="Arial" font-size="12">NN Layers</text>
+
+  <!-- Layer 1 -->
+  <circle cx="280" cy="30" r="10" fill="lightblue" stroke="black" stroke-width="2"/>
+  <circle cx="280" cy="60" r="10" fill="lightblue" stroke="black" stroke-width="2"/>
+  <line x1="175" y1="45" x2="270" y2="30" stroke="black"/>
+  <line x1="175" y1="45" x2="270" y2="60" stroke="black"/>
+
+  <!-- Layer 2 -->
+  <circle cx="320" cy="45" r="10" fill="lightgreen" stroke="black" stroke-width="2"/>
+  <line x1="290" y1="30" x2="310" y2="45" stroke="black"/>
+  <line x1="290" y1="60" x2="310" y2="45" stroke="black"/>
   
-  <!-- Feature Extraction Stage -->
-  <circle cx="400" cy="150" r="15" fill="#e74c3c">
-    <animate attributeName="cx" from="400" to="550" dur="2s" repeatCount="indefinite" />
-  </circle>
-  
-  <!-- Neural Network Layers -->
-  <line x1="550" y1="150" x2="580" y2="100" stroke="#9b59b6" stroke-width="2">
-    <animate attributeName="x1" from="550" to="580" dur="2s" repeatCount="indefinite" />
-    <animate attributeName="x2" from="580" to="600" dur="2s" repeatCount="indefinite" />
-  </line>
-  <line x1="550" y1="150" x2="580" y2="200" stroke="#9b59b6" stroke-width="2">
-    <animate attributeName="x1" from="550" to="580" dur="2s" repeatCount="indefinite" />
-    <animate attributeName="x2" from="580" to="600" dur="2s" repeatCount="indefinite" />
-  </line>
+  <!-- Step 4: Output -->
+  <line x1="330" y1="45" x2="400" y2="45" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="340" y="35" font-family="Arial" font-size="12">Output</text>
+
+  <!-- Output Box -->
+  <rect x="400" y="20" width="70" height="50" fill="white" stroke="black"/>
+  <text x="410" y="40" font-family="Arial" font-size="12">Output:</text>
+  <text x="410" y="55" font-family="Arial" font-size="12">0.85</text>
+
+  <!-- Step 5: Label Mapping -->
+  <line x1="450" y1="45" x2="520" y2="45" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="460" y="35" font-family="Arial" font-size="12">Label Mapping</text>
+
+  <!-- Labels -->
+  <text x="530" y="40" font-family="Arial" font-size="12" fill="red" font-weight="bold">Cat</text>
+  <text x="530" y="60" font-family="Arial" font-size="12" fill="gray">Dog</text>
+
+  <!-- Arrowhead Marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="black"/>
+    </marker>
+  </defs>
 </svg>
