@@ -17,13 +17,14 @@
     <img src="https://img.shields.io/badge/-java-E34A86?style=flat-square&logo=java&logoColor=white"/>
     <img src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white"/>
     <img src="https://img.shields.io/badge/yaml-%23ffffff.svg?style=flat-square&logo=yaml&logoColor=black"/>
-    <img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=white"/>
-    <img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black"/>
+    <img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi"/>
     <img src="https://img.shields.io/badge/Rabbitmq-FF6600?style=flat-square&logo=rabbitmq&logoColor=white"/>
     <img src="https://img.shields.io/badge/Prefect-%23ffffff.svg?style=flat-square&logo=prefect&logoColor=black"/>
     <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white"/>
     <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=flat-square&logo=jupyter&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git&logoColor=white"/>
+    <img src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"/>
   </p>
 </p>
