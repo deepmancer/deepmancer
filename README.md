@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![Alireza's github stats](https://github-readme-stats.vercel.app/api?username=alirezaheidari-cs&count_private=true&theme=onedark)
+![Alireza's github stats](https://github-readme-stats.vercel.app/api?username=alirezaheidari-cs&count_private=true)
 
 <!--
 **alirezaheidari-cs/alirezaheidari-cs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
