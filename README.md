@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+![Data Pipeline Animation](./data_pipeline.svg)
+
 <!--
 **alirezaheidari-cs/alirezaheidari-cs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
