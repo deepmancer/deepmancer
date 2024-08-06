@@ -1,6 +1,6 @@
 ## Hi there 👋
 <p>
-  <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=alirezaheidari-cs&show_icons=true&count_privates=true&hide_border=false&line_height=20&title_color=f69673&icon_color=1b93c9&show_owner=true"/>
+  <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=alirezaheidari-cs&show_icons=true&count_privates=true&hide_border=false&line_height=20&show_owner=true"/>
   <p>
     <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-23A9F2?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Github-181717?style=flat-square&logo=GitHub&logoColor=white"/>
