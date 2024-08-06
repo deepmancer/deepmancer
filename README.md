@@ -1,7 +1,7 @@
 ## Hi there <img src="https://raw.githubusercontent.com/alirezaheidari-cs/alirezaheidari-cs/master/wave.gif" width="30">
 
 <p>
-  <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=alirezaheidari-cs&show_icons=true&count_private=true&show_icons=true&include_all_commits=true&hide_border=false&line_height=20&show_owner=true"/>
+  <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=alirezaheidari-cs&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&line_height=20&show_owner=true"/>
   <p>
     <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white"/>
     <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000&style=flat-square"/>
