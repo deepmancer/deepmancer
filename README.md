@@ -23,8 +23,9 @@
     <img src="https://img.shields.io/badge/Prefect-%23ffffff.svg?style=flat-square&logo=prefect&logoColor=black"/>
     <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white"/>
     <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=flat-square&logo=jupyter&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker&logoColor=white"/>
-    <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git&logoColor=white"/>
-    <img src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"/>
+    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white"/>
+    <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/gitlab-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white"/>
   </p>
 </p>
