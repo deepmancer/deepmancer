@@ -29,3 +29,8 @@
     <img src="https://img.shields.io/badge/gitlab-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white"/>
   </p>
 </p>
+
+
+### 👨‍💻 Top Languages Used*:
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=deepmancer)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=deepmancer)
