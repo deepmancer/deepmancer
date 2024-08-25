@@ -33,5 +33,4 @@
 
 ### 👨‍💻 Top Languages Used*:
 ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=deepmancer)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=deepmancer)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=deepmancer)
