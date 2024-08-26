@@ -1,8 +1,16 @@
 ## Hello there, I am Deepmancer! 
 
-<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-
-<dotlottie-player src="https://lottie.host/66173855-5f30-4e54-8598-ef68fe2c99ad/lY974eoIUd.json" background="transparent" speed="1" style="width: 30px; height: 30px;" loop autoplay></dotlottie-player>
+<div align="center">
+  <lottie-player
+    src="https://raw.githubusercontent.com/deepmancer/deepmancer/main/intro.json"
+    background="transparent"
+    speed="1"
+    style="width: 300px; height: 300px;"
+    loop
+    autoplay
+  ></lottie-player>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</div>
 
 <p>
   <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=deepmancer&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&line_height=20&show_owner=true"/>
