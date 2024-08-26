@@ -1,4 +1,4 @@
-## Hello there. I'm Deepmancer!<img  style=”padding: 0px;” src="https://raw.githubusercontent.com/deepmancer/deepmancer/main/wave_wiz.gif" width="60">
+## Hello there. I'm Deepmancer!<img  style="vertical-align: middle; margin: 0;" src="https://raw.githubusercontent.com/deepmancer/deepmancer/main/wave_wiz.gif" width="60">
 
 
 <p>
