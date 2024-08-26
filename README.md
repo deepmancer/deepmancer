@@ -1,4 +1,4 @@
-## Hello there. I'm Deepmancer! <img src="https://raw.githubusercontent.com/deepmancer/deepmancer/master/wave.gif" width="30">
+## Hello there. I'm Deepmancer! <img src="https://raw.githubusercontent.com/deepmancer/deepmancer/master/wave.gif" width="60">
 
 <p>
   <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=deepmancer&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&line_height=20&show_owner=true"/>
