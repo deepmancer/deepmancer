@@ -1,4 +1,4 @@
-## Hello there, I am Deepmancer! <img src="https://raw.githubusercontent.com/deepmancer/deepmancer/main/wave.gif" width="30">
+## Hello there, I am Deepmancer! <dotlottie-player src="https://lottie.host/66173855-5f30-4e54-8598-ef68fe2c99ad/lY974eoIUd.json" background="transparent" speed="1" style="width: 30px; height: 30px;" loop autoplay></dotlottie-player>
 
 <p>
   <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=deepmancer&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&line_height=20&show_owner=true"/>
