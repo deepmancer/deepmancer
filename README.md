@@ -4,9 +4,15 @@
   <tr>
     <td width="500" valign="top">
       <img
-        src="https://github-readme-stats.vercel.app/api?username=deepmancer&show_icons=true&hide_border=false&line_height=20"
+        src="./profile/stats.svg"
         width="490"
         alt="Deepmancer's GitHub stats"
+      />
+      <br/>
+      <img
+        src="./profile/top-langs.svg"
+        width="490"
+        alt="Deepmancer's top languages"
       />
     </td>
     <td valign="top">
