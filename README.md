@@ -1,4 +1,4 @@
-## Hello there. I'm Deepmancer! <img src="https://raw.githubusercontent.com/deepmancer/deepmancer/main/wave_wiz.gif" width="60" alt="Waving wizard">
+## I'm Deepmancer! <img src="https://raw.githubusercontent.com/deepmancer/deepmancer/main/wave_wiz.gif" width="60" alt="Waving wizard">
 
 <table>
   <tr>
@@ -7,12 +7,6 @@
         src="./profile/stats.svg"
         width="490"
         alt="Deepmancer's GitHub stats"
-      />
-      <br/>
-      <img
-        src="./profile/top-langs.svg"
-        width="490"
-        alt="Deepmancer's top languages"
       />
     </td>
     <td valign="top">
