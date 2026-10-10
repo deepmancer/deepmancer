@@ -11,6 +11,7 @@ jobs:
 
     permissions:
       contents: write
+      actions: write
 
     steps:
       - name: Checkout repository
@@ -19,20 +20,22 @@ jobs:
           fetch-depth: 0
 
       - name: Generate GitHub stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=deepmancer&show_icons=true&hide_border=false&line_height=20&theme=transparent
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=deepmancer&layout=compact&langs_count=8&theme=transparent&hide_border=false
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Commit generated cards
         run: |
@@ -50,3 +53,11 @@ jobs:
 
           git pull --rebase origin main
           git push origin main
+
+      # GitHub disables scheduled workflows after 60 days without repository
+      # activity; re-enabling via the API resets that timer.
+      - name: Keep scheduled workflow alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api --method PUT "repos/${{ github.repository }}/actions/workflows/update-readme-cards.yml/enable"
